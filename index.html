@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="css/codiqa.ext.css">
+  
+  <!--Phone Gap-->
+  <script src="phonegap.js"></script>
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="js/codiqa.ext.js"></script>
+  
+  <!-- Mis acciones -->
+  <script src="js/acciones.js"></script>
+   
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Log In
+        </h3>
+    </div>
+    <div data-role="content">
+     <form name="log">
+        <div data-role="fieldcontain" class="Texto">
+            <input name="Usuario" id="Usuario" placeholder="Nombre de Usuario" value=""
+            type="text">
+        </div>
+        <div data-role="fieldcontain" class="Texto">
+            <input name="Password" id="Password" placeholder="Password" value="" type="password">
+        </div>
+        <input id="Entrar" type="submit" data-icon="check" data-iconpos="right"
+        value="Entrar" class="enviar">
+      </form>
+    </div>
+</div>
+
+
+
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Busqueda
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain" class="BTitulo">
+            <label for="textinput1">
+                Titulo Del Libro
+            </label>
+            <input name="" id="textinput1" placeholder="" value="" type="text">
+        </div>
+        <a data-role="button" data-theme="a" href="#page1" data-icon="search"
+        data-iconpos="right" class="Busqueda">
+            Buscar
+        </a>
+    </div>
+</div>
+
+
+
+
+
+<!-- Busqueda -->
+<div data-role="page" id="Busqueda">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Busqueda
+        </h3>
+    </div>
+    <div data-role="content">
+    <form name="Buscar">
+        <div data-role="fieldcontain" class="BTitulo">
+             <input name="BTitulo" id="BTitulo" placeholder="Titulo del libro" valu=""type="text">
+            </div>
+            <input id="Busqueda2" type="submit" value="Buscar"  class="Busquesda"
+    </form>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
